@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+}
+.box {
+  width: 200px;
+  border: 50px solid red;
+  padding: 50px;
+  margin: 10px;
+}
+.green {
+  border-color: green;
+}
+.blue {
+  border-color: blue;
+}
+.yellow {
+  border-color: #f39c12;
+}
+.displaynone {
+  display: none;
+}
+.visibilityhidden {
+  visibility: hidden;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #222;
+}
+
+.challenge2 {
+  padding-left: 10%;
+  padding-bottom: 10px;
+  background: radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(
+      45deg,
+      transparent 74px,
+      transparent 75px,
+      #a4a4a4 75px,
+      #a4a4a4 76px,
+      transparent 77px,
+      transparent 109px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 75px,
+      transparent 76px,
+      #a4a4a4 76px,
+      #a4a4a4 77px,
+      transparent 78px,
+      transparent 109px
+    ),
+    #fff;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+.challenge2 h1:first-child{
+  text-align: center;
+}
+.challenge2 h1 {
+  color: #9b59b6;
+}
+.challenge2 p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+.challenge2 .sub-header {
+  color: #2980b6;
+}
+.challenge2 p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+.challenge2 h1::before {
+  content: "Topic: ";
+}
