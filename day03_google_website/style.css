@@ -1,0 +1,106 @@
+body{
+  display: contents;
+  font-family: Roboto,Arial,sans-serif;
+}
+
+.navbar{
+  float: right;
+  margin: 20px;
+}
+.nav-item{
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+.navbar i{
+  cursor: pointer;
+}
+.main{
+  margin-top: 300px;
+  text-align: center;
+}
+.input-box {
+  margin-top: 20px;
+}
+.input-box i {
+  color: gray;
+}
+.input-box i:first-child{
+}
+.input-box input {
+  width: 584px;
+  height: 46px;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 8px;
+  border-radius: 46px;
+  box-shadow: 0px 2px 2px rgba(128, 128, 128, 0.082);
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.search-icon{
+  position: relative;
+  left: 40px;
+}
+.mic-icon{
+  position: relative;
+  top: 8px;
+  right: 50px;
+}
+.btn-area{
+  padding-top: 18px;
+}
+.btn-area button{
+  height: 36px;
+  margin-top: 20px;
+  border: none;
+  margin-left: 8px;
+  background-color: #f8f9fa;
+  border-right: 1px;
+  border: 1px solid #f1f1f1;
+  padding: 0 16px;
+}
+.btn-area button:hover{
+  background-color:rgba(225, 227, 225, 1.00);
+  cursor: pointer;
+}
+
+.offer-language-area{
+  margin-top: 18px;
+}
+.offer-language-area a{
+  text-decoration: none;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+  color: gray;
+}
+.footer a{
+  color: gray;
+}
+.footer div{
+  padding: 15px 30px;
+}
+.footer div:first-child{
+  border-bottom: 1px solid #dadce0;
+}
+.second-line a{
+  text-decoration: none;
+}
+.second-line-first a{
+  margin-right: 12px;
+}
+.second-line-second{
+  float: right;
+}
+.second-line-second a {
+  margin-left: 12px;
+}
+.second-line a:hover{
+  text-decoration: underline;
