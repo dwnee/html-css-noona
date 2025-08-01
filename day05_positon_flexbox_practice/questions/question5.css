@@ -1,0 +1,29 @@
+.q5-height-control{
+  /* min-height: calc(100vh - 140px);  */
+  /* border: 1px solid #000; */
+}
+.q5-mother{
+  min-height: calc(100vh - 140px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  /* padding-bottom: 60px; */
+  /* border: 1px solid #000; */
+}
+.q5-bigbox{
+  width: 400px;
+  height: 250px;
+  background-color: grey;
+  color: white;
+  position: relative;
+  left: 200px;
+
+}
+.q5-div2{
+  position: relative;
+  left: -200px;
+}
+.q5-div3{
+  position: relative;
+  top: -150px;
+}

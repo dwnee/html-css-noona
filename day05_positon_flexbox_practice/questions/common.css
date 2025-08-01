@@ -1,0 +1,69 @@
+html,body{
+  padding: 0;
+}
+div{
+ box-sizing: border-box;
+}
+.mother{
+  display: flex;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.direction {
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  /* border: 1px solid #000; */
+}
+.direction img {
+  width: 30px;
+  /* border: 1px solid red; */
+}
+.btn-next{
+  /* top: -1px; */
+  transform: scaleX(-1);
+}
+.btn-prev{
+  left: -14px;
+}
+.direction-mother{
+  width: 100vw;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.direction-mother>div{
+  width: 60px;
+  /* border: 1px solid #000; */
+  position: relative;
+}
+a{
+  /* text-align: center; */
+  /* border: 1px solid #000; */
+  text-decoration: none;
+  position: relative;
+}
+.direct-btn{
+  position: absolute;
+  /* top: px; */
+}
+.home-btn img{
+  /* border: 1px solid #000; */
+  width: 40px;
+  left: 9px;
+  top: -6px;
+  position: absolute;
+}
+.notify-prev-btn{
+  /* border: 1px solid #000; */
+}
+.notify-next-btn{
+  /* border: 1px solid #000; */
+}
+.notify-prev-btn span{
+  float: right;
+}

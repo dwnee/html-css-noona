@@ -1,0 +1,19 @@
+.box-big{
+  width: 400px;
+  height: 150px;
+  background-color: grey;
+  color: white;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.box-top{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.box-bottom{
+  position: absolute;
+  top: 0;
+  right: 0;
+}

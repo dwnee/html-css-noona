@@ -1,0 +1,9 @@
+
+.mother{
+  justify-content: space-between;
+}
+.right-bond{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}

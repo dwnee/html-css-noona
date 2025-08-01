@@ -1,0 +1,16 @@
+.q3-main{
+  justify-content: center;
+}
+.q3-outside-box{
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  position: relative;
+  
+}
+.q3-inside-box{
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
