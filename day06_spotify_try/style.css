@@ -151,6 +151,13 @@ footer {
   display: flex;
   gap: 8px;
 }
+.logos img{
+  width: 36px;
+  filter:invert(1);
+}
+.logos img:hover{
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
 .logos div {
   width: 54px;
   height: 54px;
