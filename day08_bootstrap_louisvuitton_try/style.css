@@ -1,0 +1,27 @@
+.mid-page-txt{
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.mid-page-txt div:first-child{
+  font-size: 1.8em;
+}
+.card-body-position{
+  text-align: center;
+}
+footer{
+  background-color: #000;
+  height: auto;
+  color: #fff;
+}
+.upper-footer{
+  height: 140px;
+  line-height: 140px;
+  border-bottom: 1px solid grey;
+}
+.down-footer{
+  padding: 30px;
+}
